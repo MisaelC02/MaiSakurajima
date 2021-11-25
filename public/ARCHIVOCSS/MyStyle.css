@@ -5,13 +5,13 @@ body {
     background-size: cover;
 }
 
-h1{
-    font-family: 'Bebas Neue', cursive;
+h1 {
+    font-family: "Bebas Neue", cursive;
 }
 
 .text-muted {
     --bs-text-opacity: 1;
-    color: #f8f9fa!important;
+    color: #f8f9fa !important;
 }
 .sePara {
     margin-top: 30mm;
@@ -21,7 +21,6 @@ h3 {
     color: #f8f9fa;
 }
 
-.bokuto{
-   background-color: blueviolet; 
-    
+.bokuto {
+    background-color: blueviolet;
 }
