@@ -44,7 +44,7 @@ let largo = mai.length;
 
 let amai = [{ Ruta: "/img/completamai.jpg" }];
 
-app.get("/hola", (req, res) => {
+app.get("/misa", (req, res) => {
     res.render("Index", { mai: mai, largo: largo });
     //res.render("pruebas", { p : p});
 });

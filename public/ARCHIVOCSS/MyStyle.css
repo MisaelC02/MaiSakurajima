@@ -24,3 +24,36 @@ h3 {
 .bokuto {
     background-color: blueviolet;
 }
+
+.portable-infobox {
+    --pi-background: var(--theme-page-background-color);
+    --pi-secondary-background: #6e02d1;
+    --pi-secondary-background--label: var(--theme-accent-label-color);
+    --pi-border-color: rgba(var(--theme-accent-color--rgb), 0.5);
+    border-radius: 3 px;
+    border-style: solid;
+    border-width: 1 px;
+    clear: right;
+    float: right;
+    margin: 0 0 18 px 18 px;
+    width: 270 px;
+}
+
+.pi-header,
+.pi-title {
+    text-align: center;
+}
+
+.pi-caption,
+.pi-data,
+.pi-header,
+.pi-navigation,
+.pi-title {
+    padding-left: 9 px;
+    padding-right: 9 px;
+}
+
+.pi-item-spacing {
+    padding-bottom: 9 px;
+    padding-top: 9 px;
+}
